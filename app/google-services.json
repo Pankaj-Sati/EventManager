@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955375097499",
+    "firebase_url": "https://evemanager-3c572.firebaseio.com",
+    "project_id": "evemanager-3c572",
+    "storage_bucket": "evemanager-3c572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955375097499:android:9670a1e5f68940e101d83e",
+        "android_client_info": {
+          "package_name": "com.assessmentproj.evemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955375097499-ov8dkpfansg51gg6e9kpdefqrc8peesv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC75Y-LbwTC9tVT-_KMJ700B37hfSVslLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955375097499-ov8dkpfansg51gg6e9kpdefqrc8peesv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

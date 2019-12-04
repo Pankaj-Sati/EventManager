@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="64dp"
+    tools:context=".EventDetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/A_Event_Details_commonMargin"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/A_Event_Details_commonMargin"
+            android:text="@string/event_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TV_a_event_details_e_name"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center_vertical"
+            android:padding="@dimen/A_Event_Details_commonMargin"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/A_Event_Details_commonMargin"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/A_Event_Details_commonMargin"
+            android:text="@string/event_location"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TV_a_event_details_e_location"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center_vertical"
+            android:padding="@dimen/A_Event_Details_commonMargin"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/A_Event_Details_commonMargin"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/A_Event_Details_commonMargin"
+            android:text="@string/event_description"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TV_a_event_details_e_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:padding="@dimen/A_Event_Details_commonMargin"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="@dimen/A_Event_Details_commonMargin"
+        android:id="@+id/B_a_event_details_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
