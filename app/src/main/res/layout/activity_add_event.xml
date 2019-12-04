@@ -18,7 +18,9 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="24dp"
-
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:focusable="true"
         android:hint="@string/prompt_event_name"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
@@ -35,7 +37,9 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
-
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:focusable="true"
         android:hint="@string/prompt_event_location"
 
         android:inputType="textPostalAddress"
@@ -54,6 +58,9 @@
         android:hint="@string/prompt_event_description"
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:focusable="true"
         android:inputType="textPostalAddress"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"

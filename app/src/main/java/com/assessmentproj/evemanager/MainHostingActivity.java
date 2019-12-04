@@ -8,6 +8,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -63,7 +65,8 @@ public class MainHostingActivity extends AppCompatActivity
         }
     }
 
-    public void showToast(Context context,String message)
+
+    public void showToast(Context context, String message)
     {
         Toast.makeText(context,message,Toast.LENGTH_SHORT).show();
     }

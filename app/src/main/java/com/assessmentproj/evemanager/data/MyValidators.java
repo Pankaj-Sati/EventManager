@@ -10,8 +10,8 @@ import java.util.regex.Pattern;
 public class MyValidators
 {
     public static Pattern NAME_PATTERN=Pattern.compile("^[A-Za-z]{2,50}$");
-    public static Pattern ADDRESS_PATTERN=Pattern.compile("^[A-Za-z0-9]{2,100}$");
-    public static Pattern DESCRIPTION_PATTERN=Pattern.compile("^[A-Za-z0-9]{0,500}$");
+    public static Pattern ADDRESS_PATTERN=Pattern.compile("^[\\sA-Za-z0-9]{2,100}$");
+    public static Pattern DESCRIPTION_PATTERN=Pattern.compile("^[\\sA-Za-z0-9]{0,500}$");
     public static Pattern PASSWORD_PATTERN=Pattern.compile("^[\\S]{0,500}$");
     public static boolean isEmailValid(String email)
     {
